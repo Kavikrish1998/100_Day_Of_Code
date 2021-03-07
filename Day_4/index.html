@@ -1,0 +1,30 @@
+<html>
+
+
+
+<body>
+
+    <p id="k"></p>
+    <script>
+        var color = ["green", "pink", "purple", "yellow", "Black"]
+
+        var i = 0;
+        var text = "";
+        while (color[i]) {
+            if (color[i] == "pink") {
+                text += color[i] + " " + "Not a good color" + "<br>"
+            } else if (color[i] == "Black") {
+                text += color[i] + " " + "Its my fav color" + "<br>"
+
+            } else {
+                text += color[i] + " " + "Good color" + "<br>"
+
+            }
+            i++;
+        }
+        document.getElementById("k").innerHTML = text;
+    </script>
+
+</body>
+
+</html>
