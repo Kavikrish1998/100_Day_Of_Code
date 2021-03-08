@@ -1,0 +1,27 @@
+<html>
+
+<body>
+
+    <p id="k"> </p>
+    <p id="s"></p>
+
+
+    <script>
+        class section_c {
+            constructor(name, age, native) {
+                this.name = name;
+                this.age = age;
+                this.native = native;
+            }
+        }
+        my_class = new section_c("Kavitha", 21, "Palani");
+        my_class_2 = new section_c("preeti", 24, "Delhi");
+        document.getElementById("k").innerHTML = my_class.name + " " + my_class.age + " " + my_class.native
+        document.getElementById("s").innerHTML = my_class_2.name + " " + my_class_2.age + " " + my_class_2.native
+    </script>
+
+
+</body>
+
+
+</html>
